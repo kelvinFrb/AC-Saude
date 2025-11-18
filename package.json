@@ -1,17 +1,19 @@
 {
   "name": "ac-saude",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sistema CentSaude - Testes com Cypress",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "http-server . -p 8080",
+    "test": "cypress open",
+    "cypress:run": "cypress run"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kelvinFrb/AC-Saude.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kelvin França",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
@@ -19,6 +21,7 @@
   },
   "homepage": "https://github.com/kelvinFrb/AC-Saude#readme",
   "devDependencies": {
-    "cypress": "^15.6.0"
+    "cypress": "^15.6.0",
+    "http-server": "^14.1.1"
   }
 }
