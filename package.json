@@ -1,0 +1,24 @@
+{
+  "name": "ac-saude",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelvinFrb/AC-Saude.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kelvinFrb/AC-Saude/issues"
+  },
+  "homepage": "https://github.com/kelvinFrb/AC-Saude#readme",
+  "devDependencies": {
+    "cypress": "^15.6.0"
+  }
+}
